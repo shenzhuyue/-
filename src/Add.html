@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>添加联系人</title>
     <style>
+        input{
+            height: 30px;
+            width: 14em;
+            font-size: 20px;
+        }
         body{
             background-image:url('background.jpg');
             background-repeat:no-repeat;
@@ -63,7 +68,51 @@
         a:active {color: black;}  /* 鼠标点击时 */
     </style>
 </head>
+<script type="text/javascript">
+    //onblur失去焦点事件，用户离开输入框时执行 JavaScript 代码：
+    //函数：验证邮箱格式
+    function isEmail(strEmail){
+        //定义正则表达式的变量:邮箱正则
+        var reg=/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+        console.log(strEmail);
+        //文本框不为空，并且验证邮箱正则成功，给出正确提示
+        if(strEmail != null && strEmail.search(reg) != -1)
+        {
+            document.getElementById("test_user").innerHTML = "<font color='green' size='4px'>√邮箱格式正确！</font>";
+        }else{
+            document.getElementById("test_user").innerHTML = "<font color='red' size='4px'>邮箱格式错误！</font>";
+        }
+    }
+</script>
 <body>
+<div class="back">
+    <div class="header">
+        <h1 style="text-align: center">添加联系人</h1>
+    </div>
+    <div class="left">隐藏</div>
+    <div class="middle">
+        <table>
+            <tr>
+                <th><h2><p style="color: black"><b><div class="column3">姓名：</div><input placeholder="Erii"></b></p></h2></th>
+                <th><h2><p style="color: black"><b><div class="column3">联系方式：</div>
+                    <input type="text" id="username" name="username" value="联系人邮箱"
+                           onclick="username.value='',username.id='username1'"
+                           onblur="isEmail(this.value)"/></b></p></h2>
+                </th>
+                <th>
+                <table>
+                    <tr><td>检测结果</td></tr>
+                    <tr><td id="test_user">&nbsp;</td></tr>
+                </table>
+                </th>
 
+                <th>
+                    <h2><p style="color: black">添加</p></h2>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <div class="right">隐藏</div>
+</div>
 </body>
 </html>

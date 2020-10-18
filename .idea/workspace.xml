@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0068bd81-0efc-49b1-ad6c-51980d9184c8" name="Default Changelist" comment="1.这是登陆的静态页面&#10;2.这是我的第一次GIT尝试">
-      <change afterPath="$PROJECT_DIR$/src/List.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login-In.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login-In.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/part1.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       <workItem from="1602914508885" duration="1819000" />
       <workItem from="1602928010860" duration="2944000" />
       <workItem from="1602953889175" duration="7593000" />
-      <workItem from="1602999538435" duration="10287000" />
+      <workItem from="1602999538435" duration="14483000" />
     </task>
     <task id="LOCAL-00001" summary="1.这是登陆的静态页面&#10;2.这是我的第一次GIT尝试">
       <created>1603004300707</created>
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603006969191</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.这是登陆的静态页面+通讯录页面">
+      <created>1603016666073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603016666073</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +141,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.这是登陆的静态页面&#10;2.这是我的第一次GIT尝试" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.这是登陆的静态页面&#10;2.这是我的第一次GIT尝试" />
+    <MESSAGE value="1.这是登陆的静态页面+通讯录页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.这是登陆的静态页面+通讯录页面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="277" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602764258508">
@@ -143,10 +153,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="216" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602915040493" />
-    <state x="281" y="138" width="1153" height="833" key="CommitChangelistDialog2" timestamp="1603016593794">
+    <state x="281" y="138" width="1153" height="833" key="CommitChangelistDialog2" timestamp="1603016664121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="281" y="138" width="1153" height="833" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603016593794" />
+    <state x="281" y="138" width="1153" height="833" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603016664121" />
     <state x="281" y="160" key="DiffContextDialog" timestamp="1603006750567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -163,10 +173,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="485" y="317" width="998" height="723" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603004468573" />
-    <state x="305" y="467" key="Vcs.Push.Dialog.v2" timestamp="1603006785971">
+    <state x="305" y="467" key="Vcs.Push.Dialog.v2" timestamp="1603016669733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="305" y="467" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603006785971" />
+    <state x="305" y="467" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603016669733" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1602144730691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
