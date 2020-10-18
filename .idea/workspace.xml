@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0068bd81-0efc-49b1-ad6c-51980d9184c8" name="Default Changelist" comment="">
+    <list default="true" id="0068bd81-0efc-49b1-ad6c-51980d9184c8" name="Default Changelist" comment="1.这是登陆的静态页面&#10;2.这是我的第一次GIT尝试">
+      <change afterPath="$PROJECT_DIR$/src/List.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/000.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/part1.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="HTML4 File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,7 +49,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -75,7 +76,7 @@
       <workItem from="1602914508885" duration="1819000" />
       <workItem from="1602928010860" duration="2944000" />
       <workItem from="1602953889175" duration="7593000" />
-      <workItem from="1602999538435" duration="4988000" />
+      <workItem from="1602999538435" duration="10287000" />
     </task>
     <task id="LOCAL-00001" summary="1.这是登陆的静态页面&#10;2.这是我的第一次GIT尝试">
       <created>1603004300707</created>
@@ -98,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603006253025</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.这是登陆的静态页面&#10;2.这是我的第一次GIT尝试">
+      <created>1603006767036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603006767036</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.这是登陆的静态页面&#10;2.这是我的第一次GIT尝试">
+      <created>1603006969191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603006969191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,10 +143,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="216" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602915040493" />
-    <state x="281" y="138" width="1153" height="833" key="CommitChangelistDialog2" timestamp="1603006766262">
+    <state x="281" y="138" width="1153" height="833" key="CommitChangelistDialog2" timestamp="1603016593794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="281" y="138" width="1153" height="833" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603006766262" />
+    <state x="281" y="138" width="1153" height="833" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603016593794" />
     <state x="281" y="160" key="DiffContextDialog" timestamp="1603006750567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,6 +171,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602144730691" />
+    <state x="946" y="536" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603016583492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="946" y="536" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603016583492" />
+    <state x="722" y="271" key="git4idea.merge.GitPullDialog" timestamp="1603007023082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="722" y="271" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603007023082" />
     <state x="528" y="260" key="new project wizard" timestamp="1602915585197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

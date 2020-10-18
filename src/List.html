@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>个人通讯录</title>
+    <style>
+        body{
+            background-image:url('background.jpg');
+            background-repeat:no-repeat;
+        }
+
+        .back{
+            float: left;
+            width: 100%;
+        }
+        .left{
+            visibility:hidden;
+            float: left;
+            width: 20%;
+        }
+        .right{
+            visibility:hidden;
+            float: left;
+            width: 20%;
+        }
+        .middle{
+            float: left;
+            width: 60%;
+        }
+        .header {
+            text-align: center;
+            padding: 40px;
+        }
+        table,td,th
+        {
+            border:5px solid black;
+        }
+        table
+        {
+            width:100%;
+        }
+        th
+        {
+            text-align: center;
+            vertical-align: center;
+            height:50px;
+        }
+        td{
+            text-align: left;
+            vertical-align: center;
+        }
+        table
+        {
+            border-collapse:collapse;
+        }
+        h1 {color: black;}
+        p.black{
+            color: black;
+        }
+        a:link {color: #0000FF;}      /* 未访问链接*/
+        a:visited {color: #0000FF;}  /* 已访问链接 */
+        a:hover {color: chartreuse}  /* 鼠标移动到链接上 */
+        a:active {color: black;}  /* 鼠标点击时 */
+    </style>
+</head>
+<body>
+    <div class="back">
+        <div class="header">
+            <h1 style="text-align: center">个人通讯录</h1>
+        </div>
+        <div class="left">隐藏</div>
+        <div class="middle">
+        <table>
+            <tr>
+                <th><h2><p style="color: black">姓名</p></h2></th>
+                <th><h2><p style="color: black">联系方式</p></h2></th>
+                <th>
+                    <h2><p style="color: black">操作</p></h2>
+                </th>
+            </tr>
+            <tr>
+                <th><h2><p style="color: black">Erii</p></h2></th>
+                <th><h2><p style="color: black">2018211523</p></h2></th>
+                <th>
+                    <table>
+                        <tr>
+                        <tr>
+                            <p  style="color: black"><a href="Add.html" target="_blank">添加</a></p>
+                        </tr>
+                        <tr>
+                            <p style="color: black">修改</p>
+                        </tr>
+                        <tr>
+                            <p style="color: black">删除</p>
+                        </tr>
+                        </tr>
+                    </table>
+                </th>
+            </tr>
+        </table>
+        </div>
+        <div class="right">隐藏</div>
+    </div>
+</body>
+</html>
